@@ -16,6 +16,7 @@
 .text-md {
     font-size: var(--text-md);
 }
+
 .text-lg {
     font-size: var(--text-lg);
 }
@@ -38,10 +39,6 @@
 
 .color-black-2 {
     background: var(--color-black-2);
-}
-
-.bg-black-1 {
-    /* background-color: var(--bg-black-1); */
 }
 
 @media (max-width:991.98px) {
