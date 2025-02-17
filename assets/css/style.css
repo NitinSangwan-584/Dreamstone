@@ -18,6 +18,14 @@
     line-height: 24px;
 }
 
+.lh-64 {
+    line-height: 64px;
+}
+
+.lh-76 {
+    line-height: 76.8px;
+}
+
 .lh-23 {
     line-height: 23px;
 }
@@ -42,7 +50,7 @@
     border-radius: 24px;
     gap: 32px;
     padding: 12px 16px;
-    background: var(--white-15, #FFFFFF26);
+    background: var(#FFFFFF26);
     border: 1px solid var(--white-30, #FFFFFF4D)
 }
 
@@ -52,15 +60,14 @@
     gap: 32px;
     padding: 12px 16px;
     border-radius: 24px;
-    color: black !important;
-    background: var(--white-80, #FFFFFFCC);
+    color: var(--color-black-1) !important;
+    background: var(--color-white);
 }
-
 
 .button-1 {
     border-radius: 50px;
     padding: 12px 24px;
-    border: 1px solid var(--dark-25, #1D252D40);
+    border: 1px solid var(--color-black-1);
 }
 
 .btn-hover:hover {
@@ -128,7 +135,12 @@
     border-width: 1px;
     padding: 8px 16px;
     background: var(--white-10, #FFFFFF1A);
-    border: 1px solid var(--white-30, #FFFFFF4D)
+    border: 1px solid var(--white-30, #FFFFFF4D);
+}
+
+/* section-1 */
+.max-w-225 {
+    max-width: 225.4px;
 }
 
 @keyframes moveUpDown {

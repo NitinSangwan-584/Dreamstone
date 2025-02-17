@@ -1,8 +1,10 @@
 :root {
     --font-family-primary: "Golos Text", serif;
     --text-md: 18px;
+    --text-lg: 64px;
     --text-xl: 88px;
     --color-white: white;
+    --color-white: black;
     --color-black-1: #1D252D;
     --color-black-2: #141414;
 }
@@ -13,6 +15,9 @@
 
 .text-md {
     font-size: var(--text-md);
+}
+.text-lg {
+    font-size: var(--text-lg);
 }
 
 .text-xl {
