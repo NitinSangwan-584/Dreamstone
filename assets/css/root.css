@@ -1,7 +1,7 @@
 :root {
     --font-family-primary: "Golos Text", serif;
-    --text-lg: 48px;
-    --text-xl: 72px;
+    --text-md: 18px;
+    --text-xl: 88px;
     --color-white: white;
     --color-black-1: #1D252D;
     --color-black-2: #141414;
@@ -11,8 +11,8 @@
     font-family: var(--font-family-primary);
 }
 
-.text-lg {
-    font-size: var(--text-lg);
+.text-md {
+    font-size: var(--text-md);
 }
 
 .text-xl {
@@ -30,6 +30,7 @@
 .color-black-1 {
     color: var(--color-black-1);
 }
+
 .color-black-2 {
     background: var(--color-black-2);
 }
@@ -38,19 +39,14 @@
     /* background-color: var(--bg-black-1); */
 }
 
-
-
-
-@media (max-width:767.98px) {
+@media (max-width:991.98px) {
     :root {
-        --text-lg: 40px;
-        --text-xl: 60px;
+        --text-xl: 64px;
     }
 }
 
 @media (max-width:575.98px) {
     :root {
-        --text-lg: 32px;
-        --text-xl: 40px;
+        --text-xl: 48px;
     }
 }
