@@ -1,5 +1,6 @@
 :root {
     --font-family-primary: "Golos Text", serif;
+    --text-sm: 16px;
     --text-md: 18px;
     --text-lg: 64px;
     --text-xl: 88px;
@@ -11,6 +12,10 @@
 
 .font-family-primary {
     font-family: var(--font-family-primary);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
 }
 
 .text-md {

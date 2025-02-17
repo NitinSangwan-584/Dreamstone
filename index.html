@@ -13,8 +13,8 @@
 
 <body>
     <!-- header -->
-    <header class="text-white d-flex  justify-content-center min-vh-100  justify-item-center bg-img">
-        <div class="container">
+    <header class="text-white d-flex  justify-content-center justify-item-center pb-4 bg-img">
+        <div class="container z-3">
             <nav class="d-flex py-2 pb-5 pb-sm-0 align-items-center mt-0 justify-content-between w-100 name">
                 <a href="#"><img src="./assets/img/svg/page-logo.svg" alt="page-logo"></a>
                 <ul id="name"
@@ -37,13 +37,18 @@
                         In</button>
                 </div>
                 <div onclick="navbarbtn()" class="z-5 d-block menu-box  d-lg-none cursor-pointer">
-                    <span class="menu-lines mb-2" id="rotates"></span>
-                    <span class="menu-lines" id="rotates2"></span>
+                    <span class="menu-lines line-1 " id="rotates"></span>
+                    <span class="menu-lines line-2" id="rotates2"></span>
                 </div>
+                <!-- <div onclick="this.classList.toggle('active')" class="menu-box">
+                    <span class="menu-lines"></span>
+                    <span class="menu-lines"></span>
+                </div> -->
+
             </nav>
             <!-- hero-section -->
-            <section class="flex-gro1 d-flex align-items-center mt-5">
-                <div class="container z-5">
+            <section class="flex-gro1 d-flex align-items-center mt-lg-5">
+                <div class="container ">
                     <div class="row">
                         <div
                             class=" mt-4 col-lg-3 col-12 div-1 text-center mt-164 d-flex flex-column  align-items-center">
@@ -55,8 +60,8 @@
                         </div>
                         <div
                             class=" d-flex col-lg-6 col-12 justify-content-center align-items-center position-relative flex-column">
-                            <img src="./assets/img/png/stone.png" alt="stone" class=" position-absolute stone w-100 max-w-326">
-
+                            <img src="./assets/img/png/stone.png" alt="stone"
+                                class=" position-absolute stone w-100 z-2 opacity-50 max-w-326">
                             <button
                                 class="button-2 text-white btn-hover  font-family-primary z-3 fw-medium fs-6 lh-24">The
                                 complete</button>
@@ -81,6 +86,7 @@
         </section>
         </div>
     </header>
+    <!-- section-1 -->
     <section class="d-flex align-items-center justify-content-center mt-5  mb-5 pb-5">
         <div class="container z-3">
             <div class="row d-flex flex-wrap justify-content-between text-start">
@@ -107,7 +113,66 @@
             </div>
         </div>
     </section>
-
+    <!-- footer -->
+    <footer class="bg-black pt-5 overflow-hidden position-relative text-white">
+        <div class="container">
+            <div class="d-flex align-items-center footer-content">
+                <div class="me-auto">
+                    <a href="#" target="_blank"><img class="footer-logo pb-3" src="./assets/img/svg/footer-logo.svg"
+                            alt="logo"></a>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center footer-links">
+                    <ul class="list-unstyled me-4">
+                        <li><a class="footer-tags font-family-primary fw-normal fs-6 lh-24 text-white" href="#">Key
+                                features</a></li>
+                        <li class="mt-2"><a class="footer-tags font-family-primary fw-normal fs-6 lh-24 text-white"
+                                href="#">Our tech-stack</a></li>
+                        <li class="mt-2"><a class="footer-tags font-family-primary fw-normal fs-6 lh-24 text-white"
+                                href="#">Solutions for every stage</a></li>
+                        <li class="mt-2"><a class="footer-tags font-family-primary fw-normal fs-6 lh-24 text-white"
+                                href="#">Five Easy Steps</a></li>
+                    </ul>
+                    <div class="d-flex flex-column align-items-center align-items-md-start">
+                        <div class=" d-flex email-container">
+                            <input
+                                class=" email-box bg-black border-white font-family-primary fw-normal fs-6 lh-24 text-white opacity-50"
+                                type="email" placeholder="Your email here">
+                            <button class="bdr font-family-primary fw-medium fs-6 lh-24 text-white">Subscribe</button>
+                        </div>
+                        <p class="fs-sm mt-2 font-family-primary fw-normal text-sm lh-19 opacity-50 text-white">Stay
+                            Ahead—Subscribe to Our Newsletter</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 social-icons">
+                    <a href="https://logos-world.net/bbb-logo/" target="_blank"><img
+                            src="./assets/img/svg/footer-svg-1.svg" alt="social-icon"></a>
+                    <a href="https://logos-world.net/bbb-logo/" target="_blank"><img
+                            src="./assets/img/svg/footer-svg-2.svg" alt="social-icon"></a>
+                </div>
+            </div>
+            <div class="footer-line bg-white mt-4" style="height: 1px;"></div>
+            <div class="d-flex justify-content-between align-items-center footer-bottom mt-4 flex-wrap">
+                <div class="d-flex gap-3 flex-wrap justify-content-center">
+                    <a class="font-family-primary fw-normal fs-6 lh-24 text-white"
+                        href="https://www.Linkedin.com/">Linkedin</a>
+                    <span class="footer-divider"></span>
+                    <a class="font-family-primary fw-normal fs-6 lh-24 text-white"
+                        href="https://www.twitter.com/">Twitter</a>
+                    <span class="footer-divider"></span>
+                    <a class="font-family-primary fw-normal fs-6 lh-24 text-white"
+                        href="https://www.facebook.com/">Facebook</a>
+                </div>
+                <div class="d-flex gap-3 flex-wrap justify-content-center">
+                    <a class="font-family-primary fw-normal fs-6 lh-24 text-white" href="#">Terms & Conditions</a>
+                    <span class="footer-divider"></span>
+                    <a class="font-family-primary fw-normal fs-6 lh-24 text-white" href="#">Privacy Policy</a>
+                </div>
+                <p class="font-family-primary opacity-50 fw-normal fs-6 lh-24 text-white mx-3">2025 Dreamstone Group ,
+                    Inc
+                </p>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
