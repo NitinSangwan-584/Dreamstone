@@ -14,8 +14,21 @@
     margin-top: 40px;
 }
 
+/* line-height */
+.lh-22 {
+    line-height: 22.72px;
+}
+
+.lh-23 {
+    line-height: 23px;
+}
+
 .lh-24 {
     line-height: 24px;
+}
+
+.lh-30 {
+    line-height: 30px;
 }
 
 .lh-64 {
@@ -24,14 +37,6 @@
 
 .lh-76 {
     line-height: 76.8px;
-}
-
-.lh-23 {
-    line-height: 23px;
-}
-
-.lh-22 {
-    line-height: 22.72px;
 }
 
 .lh-88 {
@@ -155,6 +160,143 @@
     max-width: 225.4px;
 }
 
+.max-w-240 {
+    max-width: 240px;
+}
+
+/* slider */
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.layer-stone {
+    bottom: -30%;
+}
+
+.slider-stone {
+    top: 85%;
+}
+
+.five-steps-btn {
+    border-radius: 34px;
+    padding: 8px 14px 8px 14px;
+    background: var(--white-60, #FFFFFF99);
+    border: 1px solid var(--Grey-5, #CCCADA)
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.mt-166 {
+    margin-top: 166px;
+}
+
+.max-w-650 {
+    max-width: 650px;
+}
+
+.step-btn {
+    width: 81px;
+    height: 40px;
+    border-radius: 34px;
+    background: var(--color-white);
+    border: 1px solid var(--color-white);
+}
+
+.opacity-70 {
+    opacity: 70%;
+}
+
+.max-w-234 {
+    max-width: 234px;
+}
+
+.slider-box {
+    max-width: 276px;
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(243, 241, 255, 0.8) 0%, rgba(246, 249, 255, 0.8) 100%);
+    padding: 24px 15px 50px 15px;
+    position: relative;
+}
+
+
+.slider-box:hover {
+    background: #FCFCFE;
+}
+
+.slider-box:hover .step-btn {
+    background-color: var(--color-black-1);
+    color: var(--color-white);
+}
+
+.slider-box:hover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    padding: 1px;
+    background: linear-gradient(0deg, #FFFFFF 0%, #E2E0FD 100%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 16px;
+}
+
+.slick-slide {
+    height: inherit !important;
+}
+
+.slick-dots li button::before {
+    font-size: 12px !important;
+    color: var(--grey-3) !important;
+    opacity: 100% !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--grey) !important;
+    opacity: 100% !important;
+}
+
+.letter-spacing-2 {
+    letter-spacing: -2px;
+}
+
+.circle-img {
+    top: 9px;
+    right: -26px;
+}
+
+.max-w-515 {
+    max-width: 515px;
+}
+
+.free-btn {
+    border-radius: 50px;
+    padding: 16px 24px 16px 24px;
+    background: var(--color-dark);
+}
+
+.layer {
+    top: 20%;
+    z-index: -5;
+}
+
+.mb-288 {
+    margin-bottom: 288px;
+}
+
+.max-w-432 {
+    max-width: 432px;
+}
+
+
 /* footer */
 .bdr {
     border: 1px solid #FFFFFF;
@@ -164,13 +306,13 @@
     max-width: 150px;
 }
 
-.footer-links a {
-    /* text-decoration: underline; */
+.email-box {
+    max-width: 250px;
+    padding: 16px 24px;
 }
 
-.email-box {
-    width: 100%;
-    max-width: 250px;
+.padding-box {
+    padding: 16px 24px;
 }
 
 .social-icons img {
@@ -183,34 +325,6 @@
     height: 24px;
     background-color: white;
     display: inline-block;
-}
-
-@media (max-width: 992px) {
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-links {
-        margin-top: 20px;
-        justify-content: center;
-    }
-
-    .email-container {
-        gap: 10px;
-        align-items: center;
-    }
-
-    .social-icons {
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .footer-bottom {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
 }
 
 @keyframes moveUpDown {
@@ -257,6 +371,31 @@
 
     .div-1 {
         display: none !important;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .footer-links {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .email-container {
+        align-items: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
     }
 
     .button-d {
