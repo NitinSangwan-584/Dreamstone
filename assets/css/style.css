@@ -164,6 +164,10 @@
     max-width: 240px;
 }
 
+.max-w-619 {
+    max-width: 619px;
+}
+
 /* slider */
 .mb-80 {
     margin-bottom: 80px;
@@ -171,6 +175,14 @@
 
 .layer-stone {
     bottom: -30%;
+}
+
+.slider-box-1 {
+    border-radius: 16px;
+    background: var(--white-40, #FFFFFF66) !important;
+
+    border: 1px solid white;
+
 }
 
 .slider-stone {
